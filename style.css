@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vh;
+    background-color: rgb(85, 82, 88);
+}
+.box{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50px;
+    background-color: rgb(0, 0, 0);
+    cursor: move;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+/* password lRzpS6sTT4bmSGgS */
+
+/*  */
